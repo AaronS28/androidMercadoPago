@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev" translatable="false">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod" translatable="false">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <color name="px_active_button">@color/px_input</color>
+    <color name="px_amex">#A1CCAA</color>
+    <color name="px_argencard">#405B72</color>
+    <color name="px_background">@color/px_colorPrimary</color>
+    <color name="px_background_loading">@color/ui_components_white_color</color>
+    <color name="px_bapropagos">#FFFFFF</color>
+    <color name="px_base_text">#333333</color>
+    <color name="px_base_text_alpha">#B3333333</color>
+    <color name="px_blue_status_bar">#008CD6</color>
+    <color name="px_cabal">#D4B44B</color>
+    <color name="px_cargavirtual">#FFFFFF</color>
+    <color name="px_cencosud">#F7F7F7</color>
+    <color name="px_cmr">#3D7D4E</color>
+    <color name="px_codensa">#D3B21D</color>
+    <color name="px_colorAccent">@color/ui_components_android_color_accent</color>
+    <color name="px_colorPrimary">@color/ui_components_android_color_primary</color>
+    <color name="px_colorPrimaryDark">@color/ui_components_android_color_primary_dark</color>
+    <color name="px_color_congrats_background">#0DB478</color>
+    <color name="px_color_light_grey">#F0F0F0</color>
+    <color name="px_color_new_card_form_background_dark_alpha">#B3FFFFFF</color>
+    <color name="px_color_new_card_form_background_light_alpha">#4DFFFFFF</color>
+    <color name="px_color_new_card_text">#999999</color>
+    <color name="px_color_payer_costs">#999999</color>
+    <color name="px_color_red_error">#FF2B2B</color>
+    <color name="px_color_unlock_card">#FFF4C3</color>
+    <color name="px_color_unlock_card_link">#118BDC</color>
+    <color name="px_color_unlock_card_text">#A1924C</color>
+    <color name="px_comment_color">#999</color>
+    <color name="px_cordial">#CBD8DF</color>
+    <color name="px_cordobesa">#5BAB97</color>
+    <color name="px_darker_gray">#ABABAB</color>
+    <color name="px_debcabal">#D4B44B</color>
+    <color name="px_debmaster">#405B72</color>
+    <color name="px_debvisa">#001D77</color>
+    <color name="px_default_disclaimer">#777777</color>
+    <color name="px_diners">#CECECE</color>
+    <color name="px_disablePaymentMethodDetailDialogDetail">@color/px_disablePaymentMethodDetailDialogTitle</color>
+    <color name="px_disablePaymentMethodDetailDialogLink">#3483FA</color>
+    <color name="px_disablePaymentMethodDetailDialogTitle">#CC000000</color>
+    <color name="px_discount_description">#64c574</color>
+    <color name="px_elo">#666666</color>
+    <color name="px_error_red_pink">#F04449</color>
+    <color name="px_expressCheckoutChangePaymentMethodColor">#ffeae8e8</color>
+    <color name="px_expressCheckoutInstallmentTitle">#73000000</color>
+    <color name="px_expressCheckoutScrollIndicatorColor">@color/px_expressCheckoutSeparatorLine</color>
+    <color name="px_expressCheckoutSeparatorLine">#19000000</color>
+    <color name="px_expressCheckoutTextColor">@color/px_white</color>
+    <color name="px_expressCheckoutTextColorDiscount">@color/px_white</color>
+    <color name="px_font_amex">#B3333333</color>
+    <color name="px_font_argencard">#B3FFFFFF</color>
+    <color name="px_font_bapropagos">#B3333333</color>
+    <color name="px_font_cabal">#B3333333</color>
+    <color name="px_font_cargavirtual">#B3333333</color>
+    <color name="px_font_cencosud">#B3333333</color>
+    <color name="px_font_cmr">#B3FFFFFF</color>
+    <color name="px_font_codensa">#B3FFFFFF</color>
+    <color name="px_font_cordial">#B3333333</color>
+    <color name="px_font_cordobesa">#B3333333</color>
+    <color name="px_font_debcabal">#B3333333</color>
+    <color name="px_font_debmaster">#B3FFFFFF</color>
+    <color name="px_font_debvisa">#B3FFFFFF</color>
+    <color name="px_font_diners">#B3333333</color>
+    <color name="px_font_elo">#B3FFFFFF</color>
+    <color name="px_font_hipercard">#B3FFFFFF</color>
+    <color name="px_font_maestro">#B3FFFFFF</color>
+    <color name="px_font_magna">#B3FFFFFF</color>
+    <color name="px_font_master">#B3FFFFFF</color>
+    <color name="px_font_melicard">#B3333333</color>
+    <color name="px_font_mercadopago_cc">#B3333333</color>
+    <color name="px_font_mercadopagocard">#B3333333</color>
+    <color name="px_font_naranja">#B3FFFFFF</color>
+    <color name="px_font_nativa">#B3FFFFFF</color>
+    <color name="px_font_pagofacil">#B3333333</color>
+    <color name="px_font_presto">#B3FFFFFF</color>
+    <color name="px_font_rapipago">#B3333333</color>
+    <color name="px_font_redlink">#B3333333</color>
+    <color name="px_font_tarshop">#B3FFFFFF</color>
+    <color name="px_font_visa">#B3FFFFFF</color>
+    <color name="px_form_text">#666666</color>
+    <color name="px_gray">#D6D6D6</color>
+    <color name="px_green_status_bar">#00B26B</color>
+    <color name="px_hipercard">#941F16</color>
+    <color name="px_inactive_button">#84b4fc</color>
+    <color name="px_input">@color/ui_components_primary_color</color>
+    <color name="px_light_gray">#F7F7F7</color>
+    <color name="px_maestro">#004883</color>
+    <color name="px_magna">#666666</color>
+    <color name="px_master">#405B72</color>
+    <color name="px_med_light_gray">@color/ui_components_light_grey_color</color>
+    <color name="px_melicard">#F7F7F7</color>
+    <color name="px_mercadopago_cc">#DCDDD9</color>
+    <color name="px_mercadopagocard">#DCDDD9</color>
+    <color name="px_mp_blue">#009EE3</color>
+    <color name="px_naranja">#FF723F</color>
+    <color name="px_nativa">#013C76</color>
+    <color name="px_orange_status_bar">#E5953D</color>
+    <color name="px_pagofacil">#FFFFFF</color>
+    <color name="px_paymentMethodTint">@color/px_colorPrimary</color>
+    <color name="px_presto">#0071b2</color>
+    <color name="px_rapipago">#FFFFFF</color>
+    <color name="px_real_black">#000000</color>
+    <color name="px_red_status_bar">#E5464C</color>
+    <color name="px_redlink">#FFFFFF</color>
+    <color name="px_review_background">@color/ui_components_white_color</color>
+    <color name="px_review_gray_background">#F7F7F7</color>
+    <color name="px_review_item_background">@color/px_light_gray</color>
+    <color name="px_review_payment_method_background">@color/px_light_gray</color>
+    <color name="px_review_payment_methods_background">#474747</color>
+    <color name="px_review_summary_background">@color/px_white</color>
+    <color name="px_review_toolbar_text">@color/px_colorPrimary</color>
+    <color name="px_separator">#DEDEDE</color>
+    <color name="px_summary_separator_color">@color/px_separator</color>
+    <color name="px_summary_text_color">@color/ui_components_dark_grey_color</color>
+    <color name="px_summary_top_color">@color/ui_components_light_grey_color</color>
+    <color name="px_tarshop">#3D4064</color>
+    <color name="px_toolbar_text">@color/ui_components_white_color</color>
+    <color name="px_transparent">#00000000</color>
+    <color name="px_very_light_gray">#EEEEEE</color>
+    <color name="px_visa">#001D77</color>
+    <color name="px_warm_grey_with_alpha">#b7999999</color>
+    <color name="px_white">@color/ui_components_white_color</color>
+    <color name="px_white_background">#FFFFFF</color>
+    <color name="ui_components_android_color_accent">@color/ui_components_android_color_primary</color>
+    <color name="ui_components_android_color_primary">#009EE3</color>
+    <color name="ui_components_android_color_primary_dark">#008AD6</color>
+    <color name="ui_components_black_color">#333333</color>
+    <color name="ui_components_dark_grey_color">#666666</color>
+    <color name="ui_components_error_color">#ff6e6e</color>
+    <color name="ui_components_light_grey_color">#EEEEEE</color>
+    <color name="ui_components_mid_grey_color">#CCCCCC</color>
+    <color name="ui_components_primary_color">@color/ui_components_android_color_primary</color>
+    <color name="ui_components_primary_color_disabled">@color/ui_components_mid_grey_color</color>
+    <color name="ui_components_primary_color_pressed">#157FAE</color>
+    <color name="ui_components_spinner_primary_color">@color/ui_components_primary_color</color>
+    <color name="ui_components_spinner_secondary_color">@color/ui_components_primary_color</color>
+    <color name="ui_components_success_color">#0db478</color>
+    <color name="ui_components_white_color">#FFFFFF</color>
+    <dimen name="px_badge_offset">16dp</dimen>
+    <dimen name="px_badge_size">25dp</dimen>
+    <dimen name="px_big_text">22dp</dimen>
+    <dimen name="px_bigger_badge_size">52dp</dimen>
+    <dimen name="px_box_default_stroke">1dp</dimen>
+    <dimen name="px_button_height">55dp</dimen>
+    <dimen name="px_camera_distance">2560dp</dimen>
+    <dimen name="px_card_background_height">208dp</dimen>
+    <dimen name="px_card_camera_distance">2560dp</dimen>
+    <dimen name="px_card_size_big_height">151dp</dimen>
+    <dimen name="px_card_size_big_shadow_width">146dp</dimen>
+    <dimen name="px_card_size_big_width">234dp</dimen>
+    <dimen name="px_card_size_big_width_no_border">224dp</dimen>
+    <dimen name="px_card_size_extra_big_height">171dp</dimen>
+    <dimen name="px_card_size_extra_big_width">266dp</dimen>
+    <dimen name="px_card_size_medium_height">121dp</dimen>
+    <dimen name="px_card_size_medium_height_no_border">141dp</dimen>
+    <dimen name="px_card_size_medium_width">186dp</dimen>
+    <dimen name="px_l_alternative_1_text">19dp</dimen>
+    <dimen name="px_l_alternative_margin">30dp</dimen>
+    <dimen name="px_l_margin">32dp</dimen>
+    <dimen name="px_l_text">20dp</dimen>
+    <dimen name="px_large_text">22dp</dimen>
+    <dimen name="px_list_item_height">55dp</dimen>
+    <dimen name="px_list_item_height_large">72dp</dimen>
+    <dimen name="px_m_alternative_1_margin">22dp</dimen>
+    <dimen name="px_m_alternative_margin">25dp</dimen>
+    <dimen name="px_m_height">48dp</dimen>
+    <dimen name="px_m_margin">24dp</dimen>
+    <dimen name="px_m_text">18dp</dimen>
+    <dimen name="px_medium_text">16dp</dimen>
+    <dimen name="px_padding_hlf">5dp</dimen>
+    <dimen name="px_payer_cost_small_text">20dp</dimen>
+    <dimen name="px_payer_cost_total_small_text">14dp</dimen>
+    <dimen name="px_payer_information_background_height">226dp</dimen>
+    <dimen name="px_promotion_logo_width">120dp</dimen>
+    <dimen name="px_regular_text">16dp</dimen>
+    <dimen name="px_s_alternative_1_margin">14dp</dimen>
+    <dimen name="px_s_alternative_margin">15dp</dimen>
+    <dimen name="px_s_height">40dp</dimen>
+    <dimen name="px_s_margin">16dp</dimen>
+    <dimen name="px_s_text">16dp</dimen>
+    <dimen name="px_small_text">14dp</dimen>
+    <dimen name="px_smaller_text">12dp</dimen>
+    <dimen name="px_title_pager_padding_right">68dp</dimen>
+    <dimen name="px_title_text">20dp</dimen>
+    <dimen name="px_toolbar_height">55dp</dimen>
+    <dimen name="px_xl_alternative_margin">38dp</dimen>
+    <dimen name="px_xl_height">80dp</dimen>
+    <dimen name="px_xl_margin">40dp</dimen>
+    <dimen name="px_xl_text">22dp</dimen>
+    <dimen name="px_xs_alternative_1_margin">11dp</dimen>
+    <dimen name="px_xs_margin">12dp</dimen>
+    <dimen name="px_xs_text">14dp</dimen>
+    <dimen name="px_xxl_height">90dp</dimen>
+    <dimen name="px_xxl_text">24dp</dimen>
+    <dimen name="px_xxs_alternative_margin">10dp</dimen>
+    <dimen name="px_xxs_margin">8dp</dimen>
+    <dimen name="px_xxs_text">12dp</dimen>
+    <dimen name="px_xxxl_alternative_1_height">96dp</dimen>
+    <dimen name="px_xxxl_height">98dp</dimen>
+    <dimen name="px_xxxl_margin">50dp</dimen>
+    <dimen name="px_xxxl_text">26dp</dimen>
+    <dimen name="px_xxxs_alternative_1_margin">5dp</dimen>
+    <dimen name="px_xxxs_alternative_margin">3dp</dimen>
+    <dimen name="px_xxxs_height">1dp</dimen>
+    <dimen name="px_xxxs_margin">4dp</dimen>
+    <dimen name="px_zero_height">0dp</dimen>
+    <item name="px_button_primary" type="id"/>
+    <item name="px_fragment_container_bottom" type="id"/>
+    <item name="px_fragment_container_dynamic_bottom" type="id"/>
+    <item name="px_fragment_container_dynamic_top" type="id"/>
+    <item name="px_fragment_container_top" type="id"/>
+    <item name="px_main_container" type="id"/>
+    <integer name="px_card_flip_time_full">800</integer>
+    <integer name="px_card_flip_time_half">400</integer>
+    <integer name="px_default_animation_offset">100</integer>
+    <integer name="px_default_animation_time">300</integer>
+    <integer name="px_document_anim_time">400</integer>
+    <integer name="px_long_animation_time">500</integer>
+    <integer name="px_short_animation_time">200</integer>
+    <integer name="px_shortest_animation_time">100</integer>
+    <string name="bank_deal_details_date_format">Up to %s</string>
+    <string name="bank_deal_details_title">Conditions</string>
+    <string name="px_accreditation_time">Will be accredited in</string>
+    <string name="px_activity_checkout_title">Check your payment</string>
+    <string name="px_add_new_card">Add new card</string>
+    <string name="px_always_on_discount_detail">With each payment to this brand you will consume the discounts until you reach the limit.</string>
+    <string name="px_amount_with_installments_holder">%1$sx %2$s</string>
+    <string name="px_api_invalid_identification_number">Invalid identification number</string>
+    <string name="px_bank">bank</string>
+    <string name="px_bank_deals_action">See deals</string>
+    <string name="px_bank_deals_lowres">Promotions</string>
+    <string name="px_bolbradesco_rejection">Payment could not be processed</string>
+    <string name="px_business_name">Business Name</string>
+    <string name="px_business_name_identification_label">BUSINESS NAME</string>
+    <string name="px_card_association_result_error_icon_text">Something went wrong…</string>
+    <string name="px_card_association_result_error_retry_button_text">Try again</string>
+    <string name="px_card_association_result_error_text">We couldn\'t load your card details</string>
+    <string name="px_card_association_result_go_back_button_text">Go to My Cards</string>
+    <string name="px_card_association_result_success_text">Done! Your card has been saved</string>
+    <string name="px_card_expire_date_label">Expiration date</string>
+    <string name="px_card_expiry_divider_hint">/</string>
+    <string name="px_card_expiry_month_hint">MM</string>
+    <string name="px_card_expiry_year_hint">YY</string>
+    <string name="px_card_identification_label">CARD HOLDER DOCUMENT</string>
+    <string name="px_card_identification_number">Number</string>
+    <string name="px_card_identification_type">Type</string>
+    <string name="px_card_installments_title">How many installments?</string>
+    <string name="px_card_issuers_title">Which is your bank?</string>
+    <string name="px_card_number_label">Card number</string>
+    <string name="px_cardholder_name">Name and surname</string>
+    <string name="px_cardholder_name_short">NAME SURNAME</string>
+    <string name="px_change_payment">Pay using a different method</string>
+    <string name="px_cnpj_card_holder_identification_hint" translatable="false">********/****-**</string>
+    <string name="px_collector_not_allowed_to_operate">The seller is not allowed to operate</string>
+    <string name="px_continue_shopping">Continue</string>
+    <string name="px_copied_to_clipboard_ack">Done! Copied.</string>
+    <string name="px_cpf_card_holder_identification_hint" translatable="false">*********-**</string>
+    <string name="px_credit_payment_type">Credit</string>
+    <string name="px_customer_equal_to_collector">Same user customer and seller</string>
+    <string name="px_customer_not_allowed_to_operate">You are not allowed to operate</string>
+    <string name="px_date_divider">of</string>
+    <string name="px_debit_payment_type">Debit</string>
+    <string name="px_dialog_detail_payment_method_disable_account_money_title">Your money in Mercado Pago is currently unavailable</string>
+    <string name="px_dialog_detail_payment_method_disable_card_title">This card is currently unavailable</string>
+    <string name="px_dialog_detail_payment_method_disable_detail">Don’t worry, you can use another method to complete the payment.</string>
+    <string name="px_dialog_detail_payment_method_disable_link">Pay with a different method</string>
+    <string name="px_discount_amount_off" translatable="false">%1$s OFF</string>
+    <string name="px_discount_amount_off_with_minus" translatable="false">- %1$s OFF</string>
+    <string name="px_discount_detail_end_date">Valid until %s.</string>
+    <string name="px_discount_percent_off" translatable="false">%1$s%% OFF</string>
+    <string name="px_discount_terms_and_conditions_linked_message">See conditions</string>
+    <string name="px_discount_terms_and_conditions_message">Mercado Libre and Mercado Pago\'s exclusive discount.</string>
+    <string name="px_empty_bank_deals">No promotions available for you</string>
+    <string name="px_empty_card_expiration_month">The month of the card\'s expiration date is not entered</string>
+    <string name="px_empty_card_expiration_year">The year of the card\'s expiration date is not entered</string>
+    <string name="px_empty_card_holder_name">The card holder name is not entered</string>
+    <string name="px_empty_document_number">The card holder document number is not entered</string>
+    <string name="px_empty_document_type">The card holder document type is not entered</string>
+    <string name="px_ending_in">ending in</string>
+    <string name="px_error_bad_filled_action">Enter the card details again</string>
+    <string name="px_error_description_by_bank">Please try to pay with other payment method.</string>
+    <string name="px_error_description_call">1- Call the phone number on the back of your card to authorize the payment of %1$s to Mercado Pago. \n 2- Please let us know so that we can credit it.</string>
+    <string name="px_error_description_card_disabled">Call %1$s to activate your card or use a different payment method</string>
+    <string name="px_error_description_contingency">Don\'t worry, in a few hours we will notify you via e-mail if it is accredited.</string>
+    <string name="px_error_description_duplicated_payment">Don\'t worry, we only charged you for the first payment.</string>
+    <string name="px_error_description_high_risk">Try paying with a different payment method.</string>
+    <string name="px_error_description_insufficient_data">Please try to pay with other payment method.</string>
+    <string name="px_error_description_max_attempts">Because you have reached the limit of attempts, please use a different payment method.</string>
+    <string name="px_error_description_other_reason">Use another card or other payment method.</string>
+    <string name="px_error_description_rejected_by_insufficient_amount">Try paying with a different payment method.</string>
+    <string name="px_error_description_rejected_by_regulations">To pay with account money you must complete the missing details.</string>
+    <string name="px_error_description_review_manual">Don\'t worry, within the next 24 hours we will notify you via e-mail if it was accredited.</string>
+    <string name="px_error_failure_recovery_not_defined">Failure recovery not defined</string>
+    <string name="px_error_message_detail_issuers">No issuers found at IssuersActivity</string>
+    <string name="px_error_message_detail_no_payer_cost_found">No payer costs found at InstallmentsActivity</string>
+    <string name="px_error_message_detail_no_payment_method_list">No payment method list found at ReviewPaymentMethodsActivity</string>
+    <string name="px_error_message_email_required">Email is required</string>
+    <string name="px_error_message_excluded_all_payment_type">All payments types excluded</string>
+    <string name="px_error_message_expired_preference">Expired preference</string>
+    <string name="px_error_message_inactive_preference">Inactive preference</string>
+    <string name="px_error_message_invalid_installments">Your card does not accept this number of installments</string>
+    <string name="px_error_message_invalid_item">Invalid item</string>
+    <string name="px_error_message_missing_identification_types">No identification type found</string>
+    <string name="px_error_message_missing_payer_cost">No installments found</string>
+    <string name="px_error_message_missing_setting_for_bin">No setting found for that bin</string>
+    <string name="px_error_title">Something went wrong…</string>
+    <string name="px_exclusion_one_element">You can only pay with %1$s</string>
+    <string name="px_exit_label">Exit</string>
+    <string name="px_fill_your_data">Enter your data…</string>
+    <string name="px_form_card_title">Card</string>
+    <string name="px_form_card_title_payment_type">Card of %1$s</string>
+    <string name="px_form_card_title_payment_type_prepaid">Prepaid card</string>
+    <string name="px_form_identification_title">Card holder document</string>
+    <string name="px_got_it">Got it</string>
+    <string name="px_homebanking">Home Banking of</string>
+    <string name="px_hour">hour</string>
+    <string name="px_identification_card_holder_hint" translatable="false">•• ••• •••</string>
+    <string name="px_input_button_back">Previous</string>
+    <string name="px_input_button_next">Continue</string>
+    <string name="px_installments_by" translatable="false">x</string>
+    <string name="px_installments_cft" translatable="false">CFT: %1$s</string>
+    <string name="px_instant_accreditation_time">Will be accredited instantly</string>
+    <string name="px_interest_label">Does\'t include bank interest</string>
+    <string name="px_invalid_card_bin">The card number you entered does not match with the card type</string>
+    <string name="px_invalid_card_expiration_month">Invalid card expiration month</string>
+    <string name="px_invalid_card_expiration_year">Invalid card expiration year</string>
+    <string name="px_invalid_card_holder_name">Invalid card holder name</string>
+    <string name="px_invalid_card_length">Enter the %1$s card numbers</string>
+    <string name="px_invalid_card_luhn">The card number you entered is incorrect</string>
+    <string name="px_invalid_card_number">Invalid card number</string>
+    <string name="px_invalid_card_number_incomplete">Enter all the numbers of the card</string>
+    <string name="px_invalid_card_payment_method">Credit card not supported</string>
+    <string name="px_invalid_cvv_length">Enter the %1$s security code numbers</string>
+    <string name="px_invalid_empty_card">Enter the credit card number</string>
+    <string name="px_invalid_empty_name">Enter the name and last name printed on the card</string>
+    <string name="px_invalid_expiry_date">The date you entered is not valid</string>
+    <string name="px_invalid_field">Check this information</string>
+    <string name="px_invalid_identification_business_name">Enter your business name</string>
+    <string name="px_invalid_identification_last_name">Enter your last name</string>
+    <string name="px_invalid_identification_name">Enter your name</string>
+    <string name="px_invalid_identification_number">Enter all numbers</string>
+    <string name="px_invalid_payer_email">Invalid customer email</string>
+    <string name="px_invalid_payment_method">You can\'t pay with this payment method</string>
+    <string name="px_invalid_payment_type_id">Invalid payment method type</string>
+    <string name="px_invalid_security_code">Invalid security code</string>
+    <string name="px_invalid_users_involved">Invalid users</string>
+    <string name="px_last_digits_label">Ending in</string>
+    <string name="px_lastname">Surname</string>
+    <string name="px_main_verb">pay</string>
+    <string name="px_max_coupon_amount">Discount limit: %1$s</string>
+    <string name="px_more_info">MORE INFO</string>
+    <string name="px_name">Name</string>
+    <string name="px_name_and_lastname_identification_label">NAME AND SURNAME</string>
+    <string name="px_no_connection_message">No connection</string>
+    <string name="px_no_payment_methods_found">There are no available payment methods</string>
+    <string name="px_one_shot_discount_detail">The limit is available for one single payment.</string>
+    <string name="px_pay">Pay</string>
+    <string name="px_payer_information_first_and_last_name" translatable="false">%1$s %2$s</string>
+    <string name="px_payer_information_identification_type_and_number" translatable="false">%1$s: %2$s</string>
+    <string name="px_payer_information_modify">Modify</string>
+    <string name="px_payment_method_disable_account_money_title">Method unavailable for this payment</string>
+    <string name="px_payment_method_disable_card_title">Card unavailable for this payment</string>
+    <string name="px_payment_method_not_found">Selected payment method not found</string>
+    <string name="px_payment_types_title">Which type of card is it?</string>
+    <string name="px_pending_label">Hurry to pay!</string>
+    <string name="px_prefix_discount_amount" translatable="false">- %1$s</string>
+    <string name="px_processing_payment_button">Processing your payment</string>
+    <string name="px_receipt">Transaction number %1$s</string>
+    <string name="px_refresh_message">Retry</string>
+    <string name="px_rejection_label">Something went wrong…</string>
+    <string name="px_review_item_quantity">Quantity:</string>
+    <string name="px_review_off_text">You will pay %1$s in a\n%2$s</string>
+    <string name="px_review_off_text_2">You will pay %1$s in\n%2$s</string>
+    <string name="px_review_off_text_3">You will pay %1$s in your\n%2$s</string>
+    <string name="px_review_off_text_4">You will pay %1$s with\n%2$s</string>
+    <string name="px_review_off_text_5">You will pay %1$s through\n%2$s</string>
+    <string name="px_review_off_text_6">You will pay %1$s at\n%2$s</string>
+    <string name="px_review_off_text_default">You will pay %1$s\n%2$s</string>
+    <string name="px_review_product_price">Unit price: %1$s</string>
+    <string name="px_review_summary_arrear">Arrear</string>
+    <string name="px_review_summary_charges">Charges</string>
+    <string name="px_review_summary_discount">Discount</string>
+    <string name="px_review_summary_pay">You will pay</string>
+    <string name="px_review_summary_product">Product</string>
+    <string name="px_review_summary_products">Products</string>
+    <string name="px_review_summary_shipping">Shipping</string>
+    <string name="px_review_summary_subtotal">Subtotal</string>
+    <string name="px_review_summary_taxes">Taxes</string>
+    <string name="px_review_summary_total">Total</string>
+    <string name="px_ryc_account_money_description">With your account money</string>
+    <string name="px_security_code">Security code</string>
+    <string name="px_security_code_required">Required security code</string>
+    <string name="px_select_installments_title">Select the installment plan</string>
+    <string name="px_standard_error_message">We are going to fix it. Try later.</string>
+    <string name="px_string_holder" translatable="false">%1$s</string>
+    <string name="px_summary_detail_item_description">Your purchase</string>
+    <string name="px_terms_and_conditions">Terms and conditions</string>
+    <string name="px_terms_and_conditions_linked_message">Terms and conditions.</string>
+    <string name="px_terms_and_conditions_message">By paying, I claim to be an adult and that I accept the</string>
+    <string name="px_text_active_card">Your card is not activated</string>
+    <string name="px_text_authorized_call_for_authorize">I already authorized the payment</string>
+    <string name="px_text_card_data_invalid">Review card data</string>
+    <string name="px_text_card_enabled">I already enabled my card</string>
+    <string name="px_text_how_can_authorize">How do I authorize it?</string>
+    <string name="px_text_insufficient_amount">Your card rejected the payment</string>
+    <string name="px_text_insufficient_amount_title_description">Your funds are insufficient or you exceeded the purchase limit.</string>
+    <string name="px_text_pay_with_other_method">Pay using a different method</string>
+    <string name="px_text_some_card_data_is_incorrect">One of the card\'s details is invalid</string>
+    <string name="px_text_state_account_activity_congrats">On your statement you will see the charge as\n %s</string>
+    <string name="px_text_unlock_card_end">before you confirm the payment.</string>
+    <string name="px_text_unlock_card_linked">unlock your card</string>
+    <string name="px_text_unlock_card_start">Remember to</string>
+    <string name="px_ticket_identification_label">DATA TO VALIDATE YOUR PAYMENT</string>
+    <string name="px_title_activity_bank_deals">Promotions</string>
+    <string name="px_title_activity_call_for_authorize">Your card did not authorize the payment</string>
+    <string name="px_title_activity_payment_methods">How do you want to %1$s?</string>
+    <string name="px_title_activity_payment_vault">How do you want to %1$s?</string>
+    <string name="px_title_activity_terms_and_conditions">Terms and conditions</string>
+    <string name="px_title_approved_payment">Done! Your payment was accredited</string>
+    <string name="px_title_bad_filled_other">One of the card\'s details is invalid</string>
+    <string name="px_title_duplicated_reason_rejection">We are sorry, the payment was made twice, therefore we rejected the second one.</string>
+    <string name="px_title_other_reason_rejection">We could not process your payment</string>
+    <string name="px_title_pending_payment">We are processing the payment</string>
+    <string name="px_title_rejection_account_high_risk">You cannot use your money in Mercado Pago for this payment</string>
+    <string name="px_title_rejection_blacklist">We rejected the payment with this card</string>
+    <string name="px_title_rejection_fraud">You are suspended for payments</string>
+    <string name="px_title_rejection_high_risk">We rejected your payment</string>
+    <string name="px_title_rejection_max_attempts">We rejected this payment because you reached the limit of attempts</string>
+    <string name="px_total_amount_holder" translatable="false">(%1$s)</string>
+    <string name="px_total_to_pay">Total to %1$s</string>
+    <string name="px_try_other_card">Enter card</string>
+    <string name="px_unauthorized_client">Unauthorized client</string>
+    <string name="px_used_up_discount_detail">This discount is not applicable, because you have reached the limit.</string>
+    <string name="px_used_up_discount_row">You reached the discount limit</string>
+    <string name="px_used_up_discount_title">You reached the limit</string>
+    <string name="px_we_apply_the_best_available_discount">Discounts are not cumulative. We apply the best available discount</string>
+    <string name="px_what_can_do">What can I do?</string>
+    <string name="px_with_max_coupon_amount">With max coupon amount</string>
+    <string name="px_working_day">business day</string>
+    <string name="px_working_days">business days</string>
+    <string name="px_you_can_finish_your_payment_with_cards">Don\'t worry, you can still pay with:</string>
+    <string name="px_your_atm">ATM of</string>
+    <string name="px_zero_rate">Interest free</string>
+    <style name="CollapsedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">19dp</item>
+        <item name="android:textColor">@color/px_white</item>
+    </style>
+    <style name="DealsDescription">
+        <item name="android:textSize">@dimen/px_small_text</item>
+        <item name="android:textColor">@color/ui_meli_grey</item>
+    </style>
+    <style name="DealsDetailTitle">
+        <item name="android:textSize">@dimen/px_title_text</item>
+        <item name="android:textColor">@color/ui_meli_black</item>
+    </style>
+    <style name="DealsLegal">
+        <item name="android:textSize">@dimen/px_smaller_text</item>
+        <item name="android:textColor">@color/ui_meli_grey</item>
+    </style>
+    <style name="DealsListTitle">
+        <item name="android:textSize">@dimen/px_regular_text</item>
+        <item name="android:textColor">@color/px_real_black</item>
+    </style>
+    <style name="DealsLogoName">
+        <item name="android:textSize">@dimen/px_title_text</item>
+        <item name="android:textColor">@color/ui_meli_grey</item>
+        <item name="android:lines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="HeaderSubtitleText">
+        <item name="android:textSize">@dimen/px_s_text</item>
+        <item name="android:textColor">@color/ui_meli_dark_grey</item>
+    </style>
+    <style name="HeaderTitleText">
+        <item name="android:textSize">@dimen/px_l_text</item>
+        <item name="android:textColor">@color/ui_meli_black</item>
+    </style>
+    <style name="MPTransparentActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+    <style name="PXScrollingPagerIndicator">
+        <item name="px_spi_dotColor">@android:color/darker_gray</item>
+        <item name="px_spi_dotSelectedColor">@android:color/darker_gray</item>
+        <item name="px_spi_dotSize">6dp</item>
+        <item name="px_spi_dotSelectedSize">10dp</item>
+        <item name="px_spi_dotSpacing">8dp</item>
+        <item name="px_spi_visibleDotCount">5</item>
+        <item name="px_spi_visibleDotThreshold">2</item>
+        <item name="px_spi_looped">false</item>
+    </style>
+    <style name="ReviewToolbarTheme" parent="Theme.MercadoPagoTheme.NoActionBar">
+        <item name="colorControlNormal">@color/px_review_toolbar_text</item>
+    </style>
+    <style name="Theme.MercadoPagoTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/px_colorPrimary</item>
+        <item name="colorControlNormal">@color/px_color_new_card_text</item>
+        <item name="colorAccent">@color/px_colorAccent</item>
+        <item name="actionMenuTextColor">@color/px_white</item>
+    </style>
+    <style name="Theme.MercadoPagoTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="TimeText">
+        <item name="android:textColor">@color/ui_meli_dark_grey</item>
+        <item name="android:textSize">@dimen/px_xs_text</item>
+        <item name="android:drawablePadding">@dimen/px_xxxs_margin</item>
+        <item name="android:drawableLeft">@drawable/px_time</item>
+        <item name="android:drawableStart">@drawable/px_time</item>
+    </style>
+    <style name="ToolbarTheme" parent="Theme.MercadoPagoTheme.NoActionBar">
+        <item name="colorControlNormal">@color/px_toolbar_text</item>
+        <item name="android:background">@color/px_background</item>
+    </style>
+    <style name="ToolbarTransparentTheme" parent="Theme.MercadoPagoTheme.NoActionBar">
+        <item name="colorControlNormal">@color/px_toolbar_text</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="px_big_text_light">
+        <item name="android:textSize">@dimen/px_big_text</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+    <style name="px_button_normal" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/px_button</item>
+        <item name="android:textSize">@dimen/px_big_text</item>
+        <item name="android:textColor">@color/px_white</item>
+    </style>
+    <style name="px_collapsing_review_toolbar_text_large" parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/px_review_toolbar_text</item>
+    </style>
+    <style name="px_collapsing_review_toolbar_text_medium" parent="Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/px_review_toolbar_text</item>
+    </style>
+    <style name="px_collapsing_toolbar_text_large" parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/px_toolbar_text</item>
+    </style>
+    <style name="px_collapsing_toolbar_text_medium" parent="Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/px_toolbar_text</item>
+    </style>
+    <style name="px_list_label">
+        <item name="android:textSize">@dimen/px_regular_text</item>
+        <item name="android:textColor">@color/px_form_text</item>
+    </style>
+    <style name="px_list_label_comment">
+        <item name="android:textSize">@dimen/px_small_text</item>
+        <item name="android:textColor">@color/px_comment_color</item>
+    </style>
+    <style name="px_simple_spinner">
+        <item name="android:textSize">@dimen/px_regular_text</item>
+        <item name="android:textColor">@color/px_base_text</item>
+    </style>
+    <style name="px_small_white_text">
+        <item name="android:textSize">@dimen/px_small_text</item>
+        <item name="android:textColor">@color/px_white</item>
+    </style>
+    <style name="px_title_text">
+        <item name="android:textSize">@dimen/px_title_text</item>
+        <item name="android:textColor">@color/px_toolbar_text</item>
+    </style>
+    <style name="px_toolbar_text">
+        <item name="android:textColor">@color/px_toolbar_text</item>
+    </style>
+    <style name="px_toolbar_text_large" parent="px_toolbar_text">
+        <item name="android:textSize">@dimen/px_l_text</item>
+    </style>
+    <style name="px_toolbar_text_medium" parent="px_toolbar_text">
+        <item name="android:textSize">@dimen/px_m_text</item>
+    </style>
+    <style name="px_toolbar_text_small" parent="px_toolbar_text">
+        <item name="android:textSize">@dimen/px_s_text</item>
+    </style>
+    <style name="px_toolbar_text_xx_small" parent="px_toolbar_text">
+        <item name="android:textSize">@dimen/px_xxs_text</item>
+    </style>
+    <declare-styleable name="MPAdaptativeTextView">
+        <!-- Minimum size of the text. -->
+        <attr format="dimension" name="minTextSize"/>
+        <!-- Amount of precision used to calculate the correct text size to fit within its
+        bounds. Lower precision is more precise and takes more time. -->
+        <attr format="float" name="precision"/>
+        <!-- Defines whether to automatically resize text to fit to the view's bounds. -->
+        <attr format="boolean" name="sizeToFit"/>
+    </declare-styleable>
+    <declare-styleable name="MPEditText">
+        <attr format="reference" name="errorColor"/>
+    </declare-styleable>
+    <declare-styleable name="MPTextView">
+        <attr format="string" name="font_style"/>
+        <attr format="boolean" name="allowCustomFont"/>
+    </declare-styleable>
+    <declare-styleable name="PXCircularImageView">
+        <attr format="dimension" name="px_civ_stroke_width"/>
+    </declare-styleable>
+    <declare-styleable name="PXElementDescriptorView">
+        <attr format="dimension" name="px_element_icon_height"/>
+        <attr format="dimension" name="px_element_icon_width"/>
+        <attr format="dimension" name="px_element_title_size"/>
+        <attr format="color" name="px_element_title_text_color"/>
+        <attr format="integer" name="px_element_title_max_lines"/>
+        <attr format="dimension" name="px_element_subtitle_size"/>
+        <attr format="color" name="px_element_subtitle_text_color"/>
+        <attr format="integer" name="px_element_subtitle_max_lines"/>
+        <attr name="android:gravity"/>
+
+    </declare-styleable>
+    <declare-styleable name="PXFixedAspectRatioFrameLayout">
+        <attr format="integer" name="px_aspectRatioWidth"/>
+        <attr format="integer" name="px_aspectRatioHeight"/>
+    </declare-styleable>
+    <declare-styleable name="PXScrollingPagerIndicator">
+        <attr format="color" name="px_spi_dotColor"/>
+        <attr format="color" name="px_spi_dotSelectedColor"/>
+        <attr format="dimension" name="px_spi_dotSize"/>
+        <attr format="dimension" name="px_spi_dotSelectedSize"/>
+        <attr format="dimension" name="px_spi_dotSpacing"/>
+        <attr format="integer" name="px_spi_visibleDotCount"/>
+        <attr format="integer" name="px_spi_visibleDotThreshold"/>
+        <attr format="boolean" name="px_spi_looped"/>
+    </declare-styleable>
+</resources>
