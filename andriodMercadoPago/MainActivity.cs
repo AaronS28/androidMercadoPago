@@ -66,10 +66,16 @@ namespace andriodMercadoPago
 
         private void FabOnClick(object sender, EventArgs eventArgs)
         {
-            
-            new Com.Mercadopago.Android.PX.Core.MercadoPagoCheckout.Builder("TEST-9b2e8c0e-5d7f-4064-9202-b5d7810dbb9a", "460720358-081e856c-c5f0-4ec7-bd05-4b90d00252a2")
+            try
+            {
+                new Com.Mercadopago.Android.PX.Core.MercadoPagoCheckout.Builder("APP_USR-89fc92e4-5a84-497f-bd53-248228d396cb", "460720358-68cc10c5-20f9-4872-8186-6c51753d3416")
                 .Build()
                 .StartPayment(this, 15);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
         }
 
@@ -80,18 +86,6 @@ namespace andriodMercadoPago
                 var a = "hola";
             }
 
-        }
-    }
-
-    public class InnerChargeRule : ChargeRule
-    {
-        public InnerChargeRule(BigDecimal charge) : base(charge)
-        {
-        }
-
-        public override bool ShouldBeTriggered(IChargeRepository p0)
-        {
-            throw new NotImplementedException();
         }
     }
 
